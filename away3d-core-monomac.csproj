@@ -52,7 +52,6 @@
     <Compile Include="src\away3d\animators\data\AnimationSubGeometry.as" />
     <Compile Include="src\away3d\animators\data\JointPose.as" />
     <Compile Include="src\away3d\animators\data\ParticleAnimationData.as" />
-    <Compile Include="src\away3d\animators\data\ParticleProperties.asx" />
     <Compile Include="src\away3d\animators\data\ParticlePropertiesMode.as" />
     <Compile Include="src\away3d\animators\data\Skeleton.as" />
     <Compile Include="src\away3d\animators\data\SkeletonJoint.as" />
@@ -157,7 +156,6 @@
     <Compile Include="src\away3d\core\base\data\Face.as" />
     <Compile Include="src\away3d\core\base\data\ParticleData.as" />
     <Compile Include="src\away3d\core\base\data\UV.as" />
-    <Compile Include="src\away3d\core\base\data\Vertex.asx" />
     <Compile Include="src\away3d\core\data\EntityListItem.as" />
     <Compile Include="src\away3d\core\data\EntityListItemPool.as" />
     <Compile Include="src\away3d\core\data\RenderableListItem.as" />
@@ -224,7 +222,6 @@
     <Compile Include="src\away3d\debug\WireframeAxesGrid.as" />
     <Compile Include="src\away3d\debug\data\TridentLines.as" />
     <Compile Include="src\away3d\entities\Entity.as" />
-    <Compile Include="src\away3d\entities\Mesh.asx" />
     <Compile Include="src\away3d\entities\SegmentSet.as" />
     <Compile Include="src\away3d\entities\Sprite3D.as" />
     <Compile Include="src\away3d\entities\TextureProjector.as" />
@@ -251,7 +248,6 @@
     <Compile Include="src\away3d\extrusions\DelaunayMesh.as" />
     <Compile Include="src\away3d\extrusions\Elevation.as" />
     <Compile Include="src\away3d\extrusions\LatheExtrude.as" />
-    <Compile Include="src\away3d\extrusions\LinearExtrude.asx" />
     <Compile Include="src\away3d\extrusions\PathDuplicator.as" />
     <Compile Include="src\away3d\extrusions\PathExtrude.as" />
     <Compile Include="src\away3d\extrusions\SkinExtrude.as" />
@@ -403,7 +399,6 @@
     <Compile Include="src\away3d\materials\utils\DefaultMaterialManager.as" />
     <Compile Include="src\away3d\materials\utils\IVideoPlayer.as" />
     <Compile Include="src\away3d\materials\utils\MipmapGenerator.as" />
-    <Compile Include="src\away3d\materials\utils\MultipleMaterials.asx" />
     <Compile Include="src\away3d\materials\utils\SimpleVideoPlayer.as" />
     <Compile Include="src\away3d\materials\utils\WireframeMapGenerator.as" />
     <Compile Include="src\away3d\paths\CubicPath.as" />
@@ -454,7 +449,6 @@
     <Compile Include="src\away3d\textures\TextureProxyBase.as" />
     <Compile Include="src\away3d\textures\VideoTexture.as" />
     <Compile Include="src\away3d\textures\WebcamTexture.as" />
-    <Compile Include="src\away3d\tools\commands\Align.asx" />
     <Compile Include="src\away3d\tools\commands\Explode.as" />
     <Compile Include="src\away3d\tools\commands\Merge.as" />
     <Compile Include="src\away3d\tools\commands\Mirror.as" />
@@ -481,6 +475,12 @@
     <Compile Include="src\away3d\utils\GeometryUtil.as" />
     <Compile Include="src\away3d\primitives\data\NURBSVertex.as" />
     <Compile Include="src\away3d\primitives\data\Segment.as" />
+    <Compile Include="src\away3d\animators\data\ParticleProperties.play" />
+    <Compile Include="src\away3d\core\base\data\Vertex.play" />
+    <Compile Include="src\away3d\entities\Mesh.play" />
+    <Compile Include="src\away3d\extrusions\LinearExtrude.play" />
+    <Compile Include="src\away3d\materials\utils\MultipleMaterials.play" />
+    <Compile Include="src\away3d\tools\commands\Align.play" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
